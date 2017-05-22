@@ -14,6 +14,8 @@ let swit = SliderSwitch()
 override func viewDidLoad() {
     super.viewDidLoad()
   
+    swit.switchON()
+    
     swit.backColor = .black
     swit.cornerRadius = 5.0
     swit.switchImage = UIImage(named: "switch2")!
