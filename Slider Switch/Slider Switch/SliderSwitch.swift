@@ -97,6 +97,10 @@ class SliderSwitch: UIView {
         status = false
     }
     
+    func changeSwitchStatus(_ stat: Bool) {
+        status = stat
+    }
+    
     private func chickStatus() {
         UIView.animate(withDuration: 0.2) {
             self.wat()

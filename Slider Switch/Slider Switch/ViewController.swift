@@ -10,7 +10,6 @@ import UIKit
 
 func theSwitch() -> SliderSwitch {
     let swit = SliderSwitch()
-    swit.switchOFF()
     swit.backColor = .black
     swit.cornerRadius = 5.0
     swit.switchImage = UIImage(named: "switch2")!
@@ -29,6 +28,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        swit.switchON()
+        
+        // --- or do this to switch ON or OFF ---
+        
+        // swit.changeSwitchStatus(true) // ON
+        // swit.changeSwitchStatus(false) // OFF
+        
         // adding the Switch to the View
         view.addSubview(swit)
         swit.heightAnchor.constraint(equalToConstant: 40).isActive = true
@@ -43,6 +49,8 @@ class ViewController: UIViewController {
                 print("Switch OFF")
             }
         }
+       
+        
     }
 }
 
