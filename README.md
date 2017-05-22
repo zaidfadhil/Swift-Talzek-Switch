@@ -2,11 +2,11 @@
 
 this is a تلزيك Switch for a client 
 
-## DEMO
+## Demo
 
 ![](https://media.giphy.com/media/l0Iyh3u30wsBV0WSk/giphy.gif)
 
-## USAGE
+## Usage
 
 ```
 let swit = SliderSwitch()
@@ -31,8 +31,13 @@ override func viewDidLoad() {
 ```
 
 ## PS
+
 check the DEMO for full code
 
-## THINGS TO ADD
+## Things To Add
 
 NOTHING LOL
+
+## License
+
+Swift-Talzek-Switch is available under the MIT license
